@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="style.css">
+
+<head>
+    <title>Задание 3. Кнопка с озвучкой</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <a href="index.html">Главная</a>
+
+    <p>computer - компьютер</p>
+    <audio id="computer"
+        src="https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/c/com/compu/computer__gb_2.mp3"
+        preload="auto">
+    </audio>
+    <button onClick="document.getElementById('computer').play();">
+        <strong>computer / kəmˈpjuːtə(r)/</strong>
+    </button>
+
+    <p>programming - программирование</p>
+    <audio id="programming"
+        src="https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/p/pro/progr/programming__gb_1.mp3"
+        preload="auto">
+    </audio>
+    <button onClick="document.getElementById('programming').play();">
+        <strong>programming / ˈprəʊɡræmɪŋ/</strong>
+    </button>
+
+    <p>interface - интерфейс</p>
+    <audio id="interface"
+        src="https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/i/int/inter/interface__gb_1.mp3"
+        preload="auto">
+    </audio>
+    <button onClick="document.getElementById('interface').play();">
+        <strong>interface / ˈɪntəfeɪs/</strong>
+    </button>
+
+</body>
+
+</html>
